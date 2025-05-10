@@ -36,7 +36,10 @@ def prepare_input_streamlit(user_input):
     vehicle_enc = le_vehicle.transform([user_input['Type_of_vehicle']])[0]
     city_enc = le_city.transform([user_input['City']])[0]
     time_period_enc = le_time_period.transform([user_input['Time_Period']])[0]
-    multi_ohe = ohe_multi.transform([[user_input['multiple_deliveries']]])[0]
+
+    multi_value = '1' if user_input['multiple_deliveries'] == 'Oui' else '0'
+    multi_ohe = ohe_multi.transform([[multi_value]])[0]
+    #multi_ohe = ohe_multi.transform([[user_input['multiple_deliveries']]])[0]
     
     input_vector = np.array(
         [
