@@ -1,5 +1,1 @@
-Delivery_person_Age,Delivery_person_Ratings,Weatherconditions,Road_traffic_density,Type_of_vehicle,multiple_deliveries,City,Hour_order_picked,Time_Period,distance_km,Predicted_time_min
-26,4.2,Fog,High,scooter,Non,Metropolitian,13,Afternoon,7.19,33
-21,4.600000000000001,Windy,Jam,motorcycle,Oui,Metropolitian,20,Evening,4.5,21
-32,4.600000000000001,Cloudy,High,scooter,Oui,Metropolitian,13,Afternoon,6.19,30
-37,4.9,Sunny,High,motorcycle,Non,Urban,11,Morning,3.12,20
+
